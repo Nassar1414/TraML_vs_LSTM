@@ -21,7 +21,7 @@ This repository contains code, data references, and documentation for evaluating
 7. [Project Structure](#project-structure)  
 8. [Future Work](#future-work)  
 9. [Acknowledgments](#acknowledgments)  
-10. [License](#license)  
+
 
 ---
 
@@ -152,9 +152,6 @@ Each script logs cross-validation metrics and saves trained models & evaluation 
 │   └── natural_disasters_2024.csv      # Synthetic dataset
 ├── final_lstm.py                       # LSTM training & evaluation
 ├── traml.py                            # Traditional ML pipeline
-├── Report_Phase_2.docx                # Full project report
-├── Research.pptx                       # Slide deck
-├── requirements.txt                    # (Optional) pin dependencies
 └── README.md                           # This file
 ```
 
@@ -172,11 +169,6 @@ Each script logs cross-validation metrics and saves trained models & evaluation 
 
 ## Acknowledgments
 
-- Synthetic dataset provided by the “Forecasting Disaster Management in 2024” Kaggle competition  
-- Report and methodology by the project team (see `Report_Phase_2.docx`)  
+- Synthetic dataset provided by the “Forecasting Disaster Management in 2024” Kaggle competition   
 
 ---
-
-## License
-
-This project is released under the [MIT License](LICENSE) (or your chosen license).
